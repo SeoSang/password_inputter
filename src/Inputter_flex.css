@@ -1,9 +1,3 @@
-.num-button__flex {
-  vertical-align: middle;
-  width: 140px;
-  height: 25%;
-}
-
 .inputter__flex {
   margin: 30px;
   flex-wrap: wrap;
@@ -11,5 +5,39 @@
   height: 360px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.password-container {
+  background-color: inherit;
+  font-size: 2rem;
+  text-align: center;
+  color: aliceblue;
+}
+
+.num-button__flex {
+  vertical-align: middle;
+  width: 138px;
+  height: 24%;
+  line-height: 100%;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #2c3e50;
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+
+.spread-effect {
+  border: 0 solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+  outline: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.spread-effect:hover {
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
 }
