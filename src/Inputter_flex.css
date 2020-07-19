@@ -1,0 +1,15 @@
+.num-button__flex {
+  vertical-align: middle;
+  width: 140px;
+  height: 25%;
+}
+
+.inputter__flex {
+  margin: 30px;
+  flex-wrap: wrap;
+  width: 420px;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
