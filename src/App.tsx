@@ -1,6 +1,6 @@
 import React from "react"
 import "./App.css"
-import Inputter from "./Inputter_flex"
+import Inputter from "./Inputter"
 
 function App() {
   return (
